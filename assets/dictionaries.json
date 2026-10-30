@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "updated": "2026-10-30",
+  "sources": [
+    {
+      "name": "Plover main dictionary",
+      "description": "The default Plover dictionary. Large, and the reference most users already know.",
+      "license": "GPL-2.0-or-later. Imported for local personal use only.",
+      "pageUrl": "https://github.com/openstenoproject/plover/blob/master/plover/assets/main.json",
+      "jsonUrl": "https://raw.githubusercontent.com/openstenoproject/plover/master/plover/assets/main.json"
+    },
+    {
+      "name": "Typey Type full dictionary",
+      "description": "A maintained steno dictionary with misstrokes removed, pinned to Typey Type commit 247a12c. Download the JSON directly, or open the page and choose the file.",
+      "license": "GPL-2.0-or-later; Typey Type contributors. Imported for local personal use only.",
+      "pageUrl": "https://didoesdigital.com/typey-type/dictionaries/typey-type/typey-type-full/",
+      "jsonUrl": "https://raw.githubusercontent.com/didoesdigital/typey-type-data/247a12c101e3bf5dca1b321691735ebc12cb587a/dictionaries/typey-type/typey-type-full.json"
+    }
+  ]
+}
