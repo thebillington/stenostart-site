@@ -66,8 +66,14 @@
         body: data,
       });
 
-      if (response.status !== 202) throw new Error(`status ${response.status}`);
       const result = await response.json().catch(() => ({}));
+      if (response.status !== 202) {
+        if (result.error === "challenge_failed") {
+          fail("The bot check did not pass.");
+          return;
+        }
+        throw new Error(`status ${response.status}`);
+      }
 
       form.hidden = true;
       button.hidden = true;
