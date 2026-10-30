@@ -1,0 +1,876 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The open steno dictionary | Steno Start</title>
+  <meta name="description" content="Download the Steno Start Open Dictionary: 500 beginner words, openly licensed CC BY-SA 4.0, with full provenance. Free to use, study and share.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#EDF4FF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#071426" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://stenostart.uk/dictionary/">
+  <link rel="alternate" hreflang="en-GB" href="https://stenostart.uk/dictionary/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Steno Start">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:title" content="The open steno dictionary | Steno Start">
+  <meta property="og:description" content="Download the Steno Start Open Dictionary: 500 beginner words, openly licensed CC BY-SA 4.0, with full provenance. Free to use, study and share.">
+  <meta property="og:url" content="https://stenostart.uk/dictionary/">
+  <meta property="og:image" content="https://stenostart.uk/assets/social.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="500">
+  <meta property="og:image:alt" content="Steno Start — Learn steno basics on your phone.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The open steno dictionary | Steno Start">
+  <meta name="twitter:description" content="Download the Steno Start Open Dictionary: 500 beginner words, openly licensed CC BY-SA 4.0, with full provenance. Free to use, study and share.">
+  <meta name="twitter:image" content="https://stenostart.uk/assets/social.png">
+
+  <link rel="preload" href="/assets/fonts/Inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/Nunito.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/style.css?v=baf425a3">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="/assets/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://stenostart.uk/"},{"@type":"ListItem","position":2,"name":"Open dictionary","item":"https://stenostart.uk/dictionary/"}]},{"@type":"Dataset","name":"Steno Start Open Dictionary","description":"Download the Steno Start Open Dictionary: 500 beginner words, openly licensed CC BY-SA 4.0, with full provenance. Free to use, study and share.","url":"https://stenostart.uk/dictionary/","license":"https://creativecommons.org/licenses/by-sa/4.0/","inLanguage":"en-GB","creator":{"@id":"https://stenostart.uk/#organisation"},"isAccessibleForFree":true,"keywords":["stenography","steno dictionary","Plover","open data","CC BY-SA"],"variableMeasured":"Steno outline for each word","distribution":[{"@type":"DataDownload","name":"dictionary.json","contentUrl":"https://raw.githubusercontent.com/thebillington/steno-start-open-dict/master/data/dictionary.json","encodingFormat":"application/json"},{"@type":"DataDownload","name":"multi_stroke.json","contentUrl":"https://raw.githubusercontent.com/thebillington/steno-start-open-dict/master/data/multi_stroke.json","encodingFormat":"application/json"},{"@type":"DataDownload","name":"manifest.json","contentUrl":"https://raw.githubusercontent.com/thebillington/steno-start-open-dict/master/data/manifest.json","encodingFormat":"application/json"},{"@type":"DataDownload","name":"entries.json","contentUrl":"https://raw.githubusercontent.com/thebillington/steno-start-open-dict/master/provenance/entries.json","encodingFormat":"application/json"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I use this in my own app or project?","acceptedAnswer":{"@type":"Answer","text":"Yes, under CC BY-SA 4.0. Credit the Steno Start Open Dictionary and its sources, link to the licence, indicate any changes and share your adaptation under the same licence. The app's code and branding are not part of the data licence."}},{"@type":"Question","name":"Is this the same dictionary that ships in Steno Start?","acceptedAnswer":{"@type":"Answer","text":"Yes. The 500-word set is the Steno Start Pro teaching dictionary. Steno Start Lite is a 135-word subset of it, and the 100 free sentences use only those Lite words."}},{"@type":"Question","name":"Is it compatible with Plover?","acceptedAnswer":{"@type":"Answer","text":"It is a JSON word-to-outline map in the usual shape, so many Plover-style tools can read it. But it is a 500-word teaching set, not a full Plover dictionary, and agreement with Plover's outlines is 78.8% on this set. Check any outline before relying on it."}},{"@type":"Question","name":"Why is there no full 6,000 or 100,000-word set?","acceptedAnswer":{"@type":"Answer","text":"A comprehensive English steno dictionary is not available under a permissive or share-alike licence that we can verify. The realistic large option is GPL data, and we do not want to mix that into a CC BY-SA set. Five hundred words is the honest, openly licensed beginner set we can publish and support."}},{"@type":"Question","name":"How do I import it into Steno Start?","acceptedAnswer":{"@type":"Answer","text":"Unlock Pro, open the dictionaries screen and choose import. Paste the raw dictionary.json link from this page, or download the file and choose it from your device. The import stays local to your device."}},{"@type":"Question","name":"Are the practice sentences included?","acceptedAnswer":{"@type":"Answer","text":"No. The dictionary download is the word set. The app also ships a separate pack of 3,000 Tatoeba sentences under CC BY 2.0 FR for use with imported dictionaries, with contributor attribution stored in the app's asset file."}}]}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a class="wordmark" href="/">
+        <img class="wordmark-icon" src="/assets/app-icon.png?v=baf425a3" alt="" width="36" height="36">
+        <span><strong>steno</strong> start</span>
+      </a>
+      <nav class="masthead-nav" aria-label="Primary">
+        <a href="/#learn">Learn</a>
+        <a href="/dictionary/">Dictionary</a>
+        <a href="/#pro">Pro</a>
+        <a href="/support/">Support</a>
+      </nav>
+      <a class="masthead-cta" href="/#get">Get the app</a>
+      <details class="mobile-nav">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile">
+          <a href="/#learn">Learn</a>
+          <a href="/dictionary/">Dictionary</a>
+          <a href="/#pro">Pro</a>
+          <a href="/support/">Support</a>
+          <a href="/#get">Get the app</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+<section class="page-hero dictionary-hero">
+  <div class="shell page-hero-inner">
+    <div>
+      <p class="eyebrow dark">Open data</p>
+      <h1>The dictionary is open. <span class="accent">All 500 words of it.</span></h1>
+      <p class="page-intro">The word list behind Steno Start Pro is published openly. Each word has a single-stroke outline, a source record and a licence that lets you use, adapt and share it. No login, no email wall, no proprietary lock-in.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#download">Download the dictionary</a>
+        <a class="button ghost" href="#browse">Browse all 500 words</a>
+      </div>
+    </div>
+    <div class="dictionary-mark" aria-hidden="true">
+      <div class="dict-card">
+        <span class="dict-word">dictionary</span>
+        <span class="dict-stroke">TKEUBGS/RAER</span>
+      </div>
+      <div class="dict-card small">
+        <span class="dict-word">open</span>
+        <span class="dict-stroke">OEP</span>
+      </div>
+      <div class="dict-license">CC<br>BY-SA</div>
+    </div>
+  </div>
+</section>
+
+<section class="stat-strip">
+  <div class="shell stat-grid">
+    <div class="stat"><strong>500</strong><span>beginner words</span></div>
+    <div class="stat"><strong>99</strong><span>briefs</span></div>
+    <div class="stat"><strong>78.8%</strong><span>exact Plover agreement</span></div>
+    <div class="stat"><strong>CC BY-SA</strong><span>4.0 licence</span></div>
+  </div>
+</section>
+
+<section class="section" id="download">
+  <div class="shell">
+    <div class="section-head">
+      <p class="eyebrow dark">Download</p>
+      <h2>Four files. No email form.</h2>
+      <p class="section-intro">Grab one file or take the lot. Each download is served straight from the public repository, so you can check the history and the build behind it.</p>
+    </div>
+    <div class="download-grid">
+      <a class="download-card" href="https://raw.githubusercontent.com/thebillington/steno-start-open-dict/master/data/dictionary.json" rel="noopener">
+        <span class="download-icon"><svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#download"></use></svg></span>
+        <div>
+          <h3>dictionary.json</h3>
+          <p>500 words, one outline each. The flat word-to-stroke map.</p>
+          <span class="download-format">JSON</span>
+        </div>
+      </a>
+      <a class="download-card" href="https://raw.githubusercontent.com/thebillington/steno-start-open-dict/master/data/multi_stroke.json" rel="noopener">
+        <span class="download-icon"><svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#download"></use></svg></span>
+        <div>
+          <h3>multi_stroke.json</h3>
+          <p>Eight optional two-stroke expansions for longer words.</p>
+          <span class="download-format">JSON</span>
+        </div>
+      </a>
+      <a class="download-card" href="https://raw.githubusercontent.com/thebillington/steno-start-open-dict/master/data/manifest.json" rel="noopener">
+        <span class="download-icon"><svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#download"></use></svg></span>
+        <div>
+          <h3>manifest.json</h3>
+          <p>Counts, source list, command and hashes for this build.</p>
+          <span class="download-format">JSON</span>
+        </div>
+      </a>
+      <a class="download-card" href="https://raw.githubusercontent.com/thebillington/steno-start-open-dict/master/provenance/entries.json" rel="noopener">
+        <span class="download-icon"><svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#download"></use></svg></span>
+        <div>
+          <h3>entries.json</h3>
+          <p>One provenance record per word: outline, sources and changes.</p>
+          <span class="download-format">JSON</span>
+        </div>
+      </a>
+    </div>
+    <div class="download-footer">
+      <p>Clone the whole repository, including the generator, engine, source registry and full licence texts.</p>
+      <div class="download-footer-actions">
+        <a class="button ghost" href="https://github.com/thebillington/steno-start-open-dict" rel="noopener">Open the repository</a>
+        <button class="button ghost copy-button" type="button" data-copy="https://github.com/thebillington/steno-start-open-dict">Copy repository link</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dictionary-about">
+  <div class="shell about-grid">
+    <section>
+      <h2>What is in the set</h2>
+      <p>The set covers the 500 beginner words used by Steno Start Pro. It includes 99 briefs and 401 rule-derived outlines. Eight longer words also have an optional two-stroke form. Every word was authored or generated for Steno Start; no GPL or commercial steno dictionary is included.</p>
+    </section>
+    <section>
+      <h2>How it was built</h2>
+      <p>Pronunciation comes from CMUdict. Theory, layout and brief patterns come from openly licensed steno references: Wikipedia&#x27;s Stenotype article, selected Plover Wiki pages and the archived Art of Chording. The Steno Start rules and 500-word list are our own. The manifest records exactly which files were used, their licences, their hashes and the build command. The provenance file records the sources behind every entry.</p>
+    </section>
+    <section>
+      <h2>What the compatibility figure means</h2>
+      <p>The 500-word set matches 394 of 500 (78.8%) outlines exactly against a full external Plover dictionary used only as a black-box reference. That is a measure of agreement with one reference, not a claim that the dictionary is Plover, endorsed by Plover, or complete enough for professional work. It is a beginner teaching set.</p>
+    </section>
+    <section>
+      <h2>How to use it</h2>
+      <p>Download a file and inspect it, import dictionary.json into Steno Start Pro, or load it into your own tooling. The JSON is a flat map of word to outline, the common Plover dictionary shape. Multi-stroke entries use a slash between strokes. If you build something with it, keep the attribution and share your adaptation under the same licence.</p>
+    </section>
+  </div>
+</section>
+
+<section class="section browse" id="browse">
+  <div class="shell">
+    <div class="section-head">
+      <p class="eyebrow dark">The whole set</p>
+      <h2>Browse every word.</h2>
+      <p class="section-intro">Search by spelling or outline. The table shows the single-stroke form; eight words also have an optional two-stroke expansion below.</p>
+    </div>
+    <div class="browse-tools">
+      <label class="search-field" for="dictionary-filter">
+        <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#search"></use></svg>
+        <span class="visually-hidden">Search the dictionary</span>
+        <input id="dictionary-filter" type="search" placeholder="Try “and”, “person” or “SKP”" autocomplete="off" spellcheck="false">
+      </label>
+      <p class="browse-count" id="dictionary-count" aria-live="polite">Showing all 500 words</p>
+    </div>
+    <div class="table-wrap">
+      <table class="dictionary-table">
+        <caption class="visually-hidden">All words in the Steno Start Open Dictionary</caption>
+        <thead>
+          <tr><th scope="col">Word</th><th scope="col">Outline</th></tr>
+        </thead>
+        <tbody id="dictionary-rows">
+          <tr data-word="a" data-stroke="AEU"><td>a</td><td>AEU</td></tr>
+          <tr data-word="about" data-stroke="PW"><td>about</td><td>PW</td></tr>
+          <tr data-word="above" data-stroke="PW*UF"><td>above</td><td>PW*UF</td></tr>
+          <tr data-word="across" data-stroke="KROS"><td>across</td><td>KROS</td></tr>
+          <tr data-word="act" data-stroke="ABGT"><td>act</td><td>ABGT</td></tr>
+          <tr data-word="add" data-stroke="AD"><td>add</td><td>AD</td></tr>
+          <tr data-word="after" data-stroke="AF"><td>after</td><td>AF</td></tr>
+          <tr data-word="again" data-stroke="TKPWEPB"><td>again</td><td>TKPWEPB</td></tr>
+          <tr data-word="age" data-stroke="AEUPBLG"><td>age</td><td>AEUPBLG</td></tr>
+          <tr data-word="ago" data-stroke="TKPWOE"><td>ago</td><td>TKPWOE</td></tr>
+          <tr data-word="air" data-stroke="AEUR"><td>air</td><td>AEUR</td></tr>
+          <tr data-word="all" data-stroke="AUL"><td>all</td><td>AUL</td></tr>
+          <tr data-word="almost" data-stroke="AUFPLT"><td>almost</td><td>AUFPLT</td></tr>
+          <tr data-word="along" data-stroke="HRAUPBG"><td>along</td><td>HRAUPBG</td></tr>
+          <tr data-word="already" data-stroke="HRAED"><td>already</td><td>HRAED</td></tr>
+          <tr data-word="also" data-stroke="HRS"><td>also</td><td>HRS</td></tr>
+          <tr data-word="always" data-stroke="AULS"><td>always</td><td>AULS</td></tr>
+          <tr data-word="am" data-stroke="APL"><td>am</td><td>APL</td></tr>
+          <tr data-word="an" data-stroke="APB"><td>an</td><td>APB</td></tr>
+          <tr data-word="and" data-stroke="SKP"><td>and</td><td>SKP</td></tr>
+          <tr data-word="animal" data-stroke="APBL"><td>animal</td><td>APBL</td></tr>
+          <tr data-word="answer" data-stroke="ARPBS"><td>answer</td><td>ARPBS</td></tr>
+          <tr data-word="any" data-stroke="TPHEU"><td>any</td><td>TPHEU</td></tr>
+          <tr data-word="are" data-stroke="R"><td>are</td><td>R</td></tr>
+          <tr data-word="around" data-stroke="ARPBD"><td>around</td><td>ARPBD</td></tr>
+          <tr data-word="ask" data-stroke="ABGS"><td>ask</td><td>ABGS</td></tr>
+          <tr data-word="at" data-stroke="AT"><td>at</td><td>AT</td></tr>
+          <tr data-word="away" data-stroke="WAEU"><td>away</td><td>WAEU</td></tr>
+          <tr data-word="baby" data-stroke="PWAEUB"><td>baby</td><td>PWAEUB</td></tr>
+          <tr data-word="back" data-stroke="PWABG"><td>back</td><td>PWABG</td></tr>
+          <tr data-word="bad" data-stroke="PWAD"><td>bad</td><td>PWAD</td></tr>
+          <tr data-word="bag" data-stroke="PWAG"><td>bag</td><td>PWAG</td></tr>
+          <tr data-word="ball" data-stroke="PWAUL"><td>ball</td><td>PWAUL</td></tr>
+          <tr data-word="bat" data-stroke="PWAT"><td>bat</td><td>PWAT</td></tr>
+          <tr data-word="be" data-stroke="-B"><td>be</td><td>-B</td></tr>
+          <tr data-word="beach" data-stroke="PWAOEFP"><td>beach</td><td>PWAOEFP</td></tr>
+          <tr data-word="bear" data-stroke="PWAER"><td>bear</td><td>PWAER</td></tr>
+          <tr data-word="beat" data-stroke="PWAOET"><td>beat</td><td>PWAOET</td></tr>
+          <tr data-word="become" data-stroke="KPWUPL"><td>become</td><td>KPWUPL</td></tr>
+          <tr data-word="bed" data-stroke="PWED"><td>bed</td><td>PWED</td></tr>
+          <tr data-word="bee" data-stroke="PWAOE"><td>bee</td><td>PWAOE</td></tr>
+          <tr data-word="before" data-stroke="TPWOR"><td>before</td><td>TPWOR</td></tr>
+          <tr data-word="behind" data-stroke="PWHAOEUPBD"><td>behind</td><td>PWHAOEUPBD</td></tr>
+          <tr data-word="believe" data-stroke="PWHRAO*EF"><td>believe</td><td>PWHRAO*EF</td></tr>
+          <tr data-word="below" data-stroke="PWHROE"><td>below</td><td>PWHROE</td></tr>
+          <tr data-word="best" data-stroke="PWEFT"><td>best</td><td>PWEFT</td></tr>
+          <tr data-word="between" data-stroke="TPWAOEPB"><td>between</td><td>TPWAOEPB</td></tr>
+          <tr data-word="big" data-stroke="PWEUG"><td>big</td><td>PWEUG</td></tr>
+          <tr data-word="bike" data-stroke="PWAOEUBG"><td>bike</td><td>PWAOEUBG</td></tr>
+          <tr data-word="bill" data-stroke="PWEUL"><td>bill</td><td>PWEUL</td></tr>
+          <tr data-word="bird" data-stroke="PWEURD"><td>bird</td><td>PWEURD</td></tr>
+          <tr data-word="bit" data-stroke="PWEUT"><td>bit</td><td>PWEUT</td></tr>
+          <tr data-word="black" data-stroke="PWHRABG"><td>black</td><td>PWHRABG</td></tr>
+          <tr data-word="blood" data-stroke="PWHRUD"><td>blood</td><td>PWHRUD</td></tr>
+          <tr data-word="blue" data-stroke="PWHRAOU"><td>blue</td><td>PWHRAOU</td></tr>
+          <tr data-word="boat" data-stroke="PWOET"><td>boat</td><td>PWOET</td></tr>
+          <tr data-word="book" data-stroke="PWAOBG"><td>book</td><td>PWAOBG</td></tr>
+          <tr data-word="both" data-stroke="PWO*ET"><td>both</td><td>PWO*ET</td></tr>
+          <tr data-word="box" data-stroke="PWOBGS"><td>box</td><td>PWOBGS</td></tr>
+          <tr data-word="boy" data-stroke="PWOEU"><td>boy</td><td>PWOEU</td></tr>
+          <tr data-word="break" data-stroke="PWRAEUBG"><td>break</td><td>PWRAEUBG</td></tr>
+          <tr data-word="bring" data-stroke="PWREUPBG"><td>bring</td><td>PWREUPBG</td></tr>
+          <tr data-word="brown" data-stroke="PWROUPB"><td>brown</td><td>PWROUPB</td></tr>
+          <tr data-word="build" data-stroke="PWEULD"><td>build</td><td>PWEULD</td></tr>
+          <tr data-word="business" data-stroke="PWEUPBSZ"><td>business</td><td>PWEUPBSZ</td></tr>
+          <tr data-word="busy" data-stroke="PWEUZ"><td>busy</td><td>PWEUZ</td></tr>
+          <tr data-word="but" data-stroke="PWUT"><td>but</td><td>PWUT</td></tr>
+          <tr data-word="buy" data-stroke="PWAOEU"><td>buy</td><td>PWAOEU</td></tr>
+          <tr data-word="cake" data-stroke="KAEUBG"><td>cake</td><td>KAEUBG</td></tr>
+          <tr data-word="call" data-stroke="KAUL"><td>call</td><td>KAUL</td></tr>
+          <tr data-word="calm" data-stroke="KAUPL"><td>calm</td><td>KAUPL</td></tr>
+          <tr data-word="came" data-stroke="KAEUPL"><td>came</td><td>KAEUPL</td></tr>
+          <tr data-word="can" data-stroke="K"><td>can</td><td>K</td></tr>
+          <tr data-word="car" data-stroke="KAR"><td>car</td><td>KAR</td></tr>
+          <tr data-word="care" data-stroke="KER"><td>care</td><td>KER</td></tr>
+          <tr data-word="carry" data-stroke="KAER"><td>carry</td><td>KAER</td></tr>
+          <tr data-word="case" data-stroke="KAEUS"><td>case</td><td>KAEUS</td></tr>
+          <tr data-word="cat" data-stroke="KAT"><td>cat</td><td>KAT</td></tr>
+          <tr data-word="catch" data-stroke="KAFP"><td>catch</td><td>KAFP</td></tr>
+          <tr data-word="cause" data-stroke="KAUZ"><td>cause</td><td>KAUZ</td></tr>
+          <tr data-word="center" data-stroke="SERPBT"><td>center</td><td>SERPBT</td></tr>
+          <tr data-word="certain" data-stroke="S*ERPBT"><td>certain</td><td>S*ERPBT</td></tr>
+          <tr data-word="chair" data-stroke="KHAER"><td>chair</td><td>KHAER</td></tr>
+          <tr data-word="chance" data-stroke="KHAPBS"><td>chance</td><td>KHAPBS</td></tr>
+          <tr data-word="check" data-stroke="KHEBG"><td>check</td><td>KHEBG</td></tr>
+          <tr data-word="child" data-stroke="KHAOEULD"><td>child</td><td>KHAOEULD</td></tr>
+          <tr data-word="choose" data-stroke="KHAOZ"><td>choose</td><td>KHAOZ</td></tr>
+          <tr data-word="church" data-stroke="KHUFRP"><td>church</td><td>KHUFRP</td></tr>
+          <tr data-word="circle" data-stroke="SEURBG"><td>circle</td><td>SEURBG</td></tr>
+          <tr data-word="city" data-stroke="STEUS"><td>city</td><td>STEUS</td></tr>
+          <tr data-word="class" data-stroke="KHRAS"><td>class</td><td>KHRAS</td></tr>
+          <tr data-word="clean" data-stroke="KHRAOEPB"><td>clean</td><td>KHRAOEPB</td></tr>
+          <tr data-word="clear" data-stroke="KHREUR"><td>clear</td><td>KHREUR</td></tr>
+          <tr data-word="clock" data-stroke="KHROBG"><td>clock</td><td>KHROBG</td></tr>
+          <tr data-word="close" data-stroke="KHROEZ"><td>close</td><td>KHROEZ</td></tr>
+          <tr data-word="cloud" data-stroke="KHROUD"><td>cloud</td><td>KHROUD</td></tr>
+          <tr data-word="coal" data-stroke="KOEL"><td>coal</td><td>KOEL</td></tr>
+          <tr data-word="coat" data-stroke="KOET"><td>coat</td><td>KOET</td></tr>
+          <tr data-word="coffee" data-stroke="KOEF"><td>coffee</td><td>KOEF</td></tr>
+          <tr data-word="coin" data-stroke="KOEUPB"><td>coin</td><td>KOEUPB</td></tr>
+          <tr data-word="cold" data-stroke="KOELD"><td>cold</td><td>KOELD</td></tr>
+          <tr data-word="color" data-stroke="KURL"><td>color</td><td>KURL</td></tr>
+          <tr data-word="come" data-stroke="KOPL"><td>come</td><td>KOPL</td></tr>
+          <tr data-word="company" data-stroke="KUFRPB"><td>company</td><td>KUFRPB</td></tr>
+          <tr data-word="cook" data-stroke="KAOBG"><td>cook</td><td>KAOBG</td></tr>
+          <tr data-word="cool" data-stroke="KAOL"><td>cool</td><td>KAOL</td></tr>
+          <tr data-word="copy" data-stroke="KOEP"><td>copy</td><td>KOEP</td></tr>
+          <tr data-word="corn" data-stroke="KORPB"><td>corn</td><td>KORPB</td></tr>
+          <tr data-word="corner" data-stroke="KO*RPB"><td>corner</td><td>KO*RPB</td></tr>
+          <tr data-word="cost" data-stroke="KOFT"><td>cost</td><td>KOFT</td></tr>
+          <tr data-word="could" data-stroke="KO"><td>could</td><td>KO</td></tr>
+          <tr data-word="count" data-stroke="KOUPBT"><td>count</td><td>KOUPBT</td></tr>
+          <tr data-word="country" data-stroke="KEURPBT"><td>country</td><td>KEURPBT</td></tr>
+          <tr data-word="course" data-stroke="KORS"><td>course</td><td>KORS</td></tr>
+          <tr data-word="cover" data-stroke="K*UFR"><td>cover</td><td>K*UFR</td></tr>
+          <tr data-word="cow" data-stroke="KOU"><td>cow</td><td>KOU</td></tr>
+          <tr data-word="cross" data-stroke="KRO*S"><td>cross</td><td>KRO*S</td></tr>
+          <tr data-word="crowd" data-stroke="KROUD"><td>crowd</td><td>KROUD</td></tr>
+          <tr data-word="cry" data-stroke="KRAOEU"><td>cry</td><td>KRAOEU</td></tr>
+          <tr data-word="cup" data-stroke="KUP"><td>cup</td><td>KUP</td></tr>
+          <tr data-word="cut" data-stroke="KUT"><td>cut</td><td>KUT</td></tr>
+          <tr data-word="dark" data-stroke="TKARBG"><td>dark</td><td>TKARBG</td></tr>
+          <tr data-word="daughter" data-stroke="TKAURT"><td>daughter</td><td>TKAURT</td></tr>
+          <tr data-word="day" data-stroke="TKAEU"><td>day</td><td>TKAEU</td></tr>
+          <tr data-word="dead" data-stroke="TKAED"><td>dead</td><td>TKAED</td></tr>
+          <tr data-word="dear" data-stroke="TKEUR"><td>dear</td><td>TKEUR</td></tr>
+          <tr data-word="death" data-stroke="TKA*ET"><td>death</td><td>TKA*ET</td></tr>
+          <tr data-word="did" data-stroke="TKEUD"><td>did</td><td>TKEUD</td></tr>
+          <tr data-word="direct" data-stroke="TKREBGT"><td>direct</td><td>TKREBGT</td></tr>
+          <tr data-word="dirty" data-stroke="TKEURT"><td>dirty</td><td>TKEURT</td></tr>
+          <tr data-word="do" data-stroke="TKO"><td>do</td><td>TKO</td></tr>
+          <tr data-word="does" data-stroke="TKUZ"><td>does</td><td>TKUZ</td></tr>
+          <tr data-word="dog" data-stroke="TKOG"><td>dog</td><td>TKOG</td></tr>
+          <tr data-word="done" data-stroke="TKUPB"><td>done</td><td>TKUPB</td></tr>
+          <tr data-word="door" data-stroke="TKAOR"><td>door</td><td>TKAOR</td></tr>
+          <tr data-word="double" data-stroke="TKUBL"><td>double</td><td>TKUBL</td></tr>
+          <tr data-word="doubt" data-stroke="TKOUT"><td>doubt</td><td>TKOUT</td></tr>
+          <tr data-word="down" data-stroke="TKOUPB"><td>down</td><td>TKOUPB</td></tr>
+          <tr data-word="draw" data-stroke="TKRAU"><td>draw</td><td>TKRAU</td></tr>
+          <tr data-word="dress" data-stroke="TKRES"><td>dress</td><td>TKRES</td></tr>
+          <tr data-word="drink" data-stroke="TKR*EUPBG"><td>drink</td><td>TKR*EUPBG</td></tr>
+          <tr data-word="drive" data-stroke="TKRAO*EUF"><td>drive</td><td>TKRAO*EUF</td></tr>
+          <tr data-word="drop" data-stroke="TKROP"><td>drop</td><td>TKROP</td></tr>
+          <tr data-word="duck" data-stroke="TKUBG"><td>duck</td><td>TKUBG</td></tr>
+          <tr data-word="during" data-stroke="TKURPBG"><td>during</td><td>TKURPBG</td></tr>
+          <tr data-word="each" data-stroke="AOEFP"><td>each</td><td>AOEFP</td></tr>
+          <tr data-word="ear" data-stroke="AOER"><td>ear</td><td>AOER</td></tr>
+          <tr data-word="early" data-stroke="EURL"><td>early</td><td>EURL</td></tr>
+          <tr data-word="earth" data-stroke="*EURT"><td>earth</td><td>*EURT</td></tr>
+          <tr data-word="east" data-stroke="AOEFT"><td>east</td><td>AOEFT</td></tr>
+          <tr data-word="easy" data-stroke="AOEZ"><td>easy</td><td>AOEZ</td></tr>
+          <tr data-word="eat" data-stroke="AOET"><td>eat</td><td>AOET</td></tr>
+          <tr data-word="edge" data-stroke="EPBLG"><td>edge</td><td>EPBLG</td></tr>
+          <tr data-word="effect" data-stroke="TPEBGT"><td>effect</td><td>TPEBGT</td></tr>
+          <tr data-word="egg" data-stroke="EG"><td>egg</td><td>EG</td></tr>
+          <tr data-word="eight" data-stroke="AEUT"><td>eight</td><td>AEUT</td></tr>
+          <tr data-word="either" data-stroke="AO*ERT"><td>either</td><td>AO*ERT</td></tr>
+          <tr data-word="else" data-stroke="ELS"><td>else</td><td>ELS</td></tr>
+          <tr data-word="end" data-stroke="EPBD"><td>end</td><td>EPBD</td></tr>
+          <tr data-word="enough" data-stroke="TPHUF"><td>enough</td><td>TPHUF</td></tr>
+          <tr data-word="even" data-stroke="AOEPB"><td>even</td><td>AOEPB</td></tr>
+          <tr data-word="ever" data-stroke="*EFR"><td>ever</td><td>*EFR</td></tr>
+          <tr data-word="every" data-stroke="EFR"><td>every</td><td>EFR</td></tr>
+          <tr data-word="example" data-stroke="STKPWA*FRPL"><td>example</td><td>STKPWA*FRPL</td></tr>
+          <tr data-word="eye" data-stroke="AOEU"><td>eye</td><td>AOEU</td></tr>
+          <tr data-word="fact" data-stroke="TPABGT"><td>fact</td><td>TPABGT</td></tr>
+          <tr data-word="fall" data-stroke="TPAUL"><td>fall</td><td>TPAUL</td></tr>
+          <tr data-word="family" data-stroke="TPAEPL"><td>family</td><td>TPAEPL</td></tr>
+          <tr data-word="far" data-stroke="TPAR"><td>far</td><td>TPAR</td></tr>
+          <tr data-word="fast" data-stroke="TPAFT"><td>fast</td><td>TPAFT</td></tr>
+          <tr data-word="father" data-stroke="TPA*RT"><td>father</td><td>TPA*RT</td></tr>
+          <tr data-word="feel" data-stroke="TPAOEL"><td>feel</td><td>TPAOEL</td></tr>
+          <tr data-word="few" data-stroke="TPAOU"><td>few</td><td>TPAOU</td></tr>
+          <tr data-word="fill" data-stroke="TPEUL"><td>fill</td><td>TPEUL</td></tr>
+          <tr data-word="find" data-stroke="TPAOEUPBD"><td>find</td><td>TPAOEUPBD</td></tr>
+          <tr data-word="first" data-stroke="TPEURS"><td>first</td><td>TPEURS</td></tr>
+          <tr data-word="fish" data-stroke="TPEURB"><td>fish</td><td>TPEURB</td></tr>
+          <tr data-word="fit" data-stroke="TPEUT"><td>fit</td><td>TPEUT</td></tr>
+          <tr data-word="five" data-stroke="TPAO*EUF"><td>five</td><td>TPAO*EUF</td></tr>
+          <tr data-word="follow" data-stroke="TPOL"><td>follow</td><td>TPOL</td></tr>
+          <tr data-word="food" data-stroke="TPAOD"><td>food</td><td>TPAOD</td></tr>
+          <tr data-word="foot" data-stroke="TPAOT"><td>foot</td><td>TPAOT</td></tr>
+          <tr data-word="for" data-stroke="TPOR"><td>for</td><td>TPOR</td></tr>
+          <tr data-word="force" data-stroke="TPORS"><td>force</td><td>TPORS</td></tr>
+          <tr data-word="form" data-stroke="TPORPL"><td>form</td><td>TPORPL</td></tr>
+          <tr data-word="four" data-stroke="TPAOR"><td>four</td><td>TPAOR</td></tr>
+          <tr data-word="fox" data-stroke="TPOBGS"><td>fox</td><td>TPOBGS</td></tr>
+          <tr data-word="free" data-stroke="TPRAOE"><td>free</td><td>TPRAOE</td></tr>
+          <tr data-word="friend" data-stroke="TPREPBD"><td>friend</td><td>TPREPBD</td></tr>
+          <tr data-word="frog" data-stroke="TPROG"><td>frog</td><td>TPROG</td></tr>
+          <tr data-word="from" data-stroke="TPR"><td>from</td><td>TPR</td></tr>
+          <tr data-word="full" data-stroke="TPUL"><td>full</td><td>TPUL</td></tr>
+          <tr data-word="fun" data-stroke="TPUPB"><td>fun</td><td>TPUPB</td></tr>
+          <tr data-word="get" data-stroke="TKPWET"><td>get</td><td>TKPWET</td></tr>
+          <tr data-word="girl" data-stroke="TKPWEURL"><td>girl</td><td>TKPWEURL</td></tr>
+          <tr data-word="give" data-stroke="TKPWEUF"><td>give</td><td>TKPWEUF</td></tr>
+          <tr data-word="go" data-stroke="TKPWO"><td>go</td><td>TKPWO</td></tr>
+          <tr data-word="god" data-stroke="TKPWOD"><td>god</td><td>TKPWOD</td></tr>
+          <tr data-word="gold" data-stroke="TKPWOELD"><td>gold</td><td>TKPWOELD</td></tr>
+          <tr data-word="good" data-stroke="TKPWAOD"><td>good</td><td>TKPWAOD</td></tr>
+          <tr data-word="got" data-stroke="TKPWOT"><td>got</td><td>TKPWOT</td></tr>
+          <tr data-word="gray" data-stroke="TKPWRAEU"><td>gray</td><td>TKPWRAEU</td></tr>
+          <tr data-word="green" data-stroke="TKPWRAOEPB"><td>green</td><td>TKPWRAOEPB</td></tr>
+          <tr data-word="guess" data-stroke="TKPWES"><td>guess</td><td>TKPWES</td></tr>
+          <tr data-word="had" data-stroke="HAD"><td>had</td><td>HAD</td></tr>
+          <tr data-word="hair" data-stroke="HAER"><td>hair</td><td>HAER</td></tr>
+          <tr data-word="half" data-stroke="HAF"><td>half</td><td>HAF</td></tr>
+          <tr data-word="hand" data-stroke="HAPBD"><td>hand</td><td>HAPBD</td></tr>
+          <tr data-word="happen" data-stroke="HAPB"><td>happen</td><td>HAPB</td></tr>
+          <tr data-word="happy" data-stroke="HAEP"><td>happy</td><td>HAEP</td></tr>
+          <tr data-word="hard" data-stroke="HARD"><td>hard</td><td>HARD</td></tr>
+          <tr data-word="has" data-stroke="HAZ"><td>has</td><td>HAZ</td></tr>
+          <tr data-word="hat" data-stroke="HAT"><td>hat</td><td>HAT</td></tr>
+          <tr data-word="hate" data-stroke="HAEUT"><td>hate</td><td>HAEUT</td></tr>
+          <tr data-word="have" data-stroke="SR"><td>have</td><td>SR</td></tr>
+          <tr data-word="he" data-stroke="HE"><td>he</td><td>HE</td></tr>
+          <tr data-word="head" data-stroke="HAED"><td>head</td><td>HAED</td></tr>
+          <tr data-word="hear" data-stroke="HAO*ER"><td>hear</td><td>HAO*ER</td></tr>
+          <tr data-word="heart" data-stroke="HART"><td>heart</td><td>HART</td></tr>
+          <tr data-word="heat" data-stroke="HAOET"><td>heat</td><td>HAOET</td></tr>
+          <tr data-word="heavy" data-stroke="HA*EF"><td>heavy</td><td>HA*EF</td></tr>
+          <tr data-word="help" data-stroke="HEPL"><td>help</td><td>HEPL</td></tr>
+          <tr data-word="hen" data-stroke="HEPB"><td>hen</td><td>HEPB</td></tr>
+          <tr data-word="her" data-stroke="HER"><td>her</td><td>HER</td></tr>
+          <tr data-word="here" data-stroke="HAOER"><td>here</td><td>HAOER</td></tr>
+          <tr data-word="high" data-stroke="HAOEU"><td>high</td><td>HAOEU</td></tr>
+          <tr data-word="hill" data-stroke="HEUL"><td>hill</td><td>HEUL</td></tr>
+          <tr data-word="him" data-stroke="HEUPL"><td>him</td><td>HEUPL</td></tr>
+          <tr data-word="himself" data-stroke="SPHEFL"><td>himself</td><td>SPHEFL</td></tr>
+          <tr data-word="his" data-stroke="HEUS"><td>his</td><td>HEUS</td></tr>
+          <tr data-word="hit" data-stroke="HEUT"><td>hit</td><td>HEUT</td></tr>
+          <tr data-word="hold" data-stroke="HOELD"><td>hold</td><td>HOELD</td></tr>
+          <tr data-word="hole" data-stroke="HOEL"><td>hole</td><td>HOEL</td></tr>
+          <tr data-word="home" data-stroke="HOEPL"><td>home</td><td>HOEPL</td></tr>
+          <tr data-word="hope" data-stroke="HOEP"><td>hope</td><td>HOEP</td></tr>
+          <tr data-word="horse" data-stroke="HORS"><td>horse</td><td>HORS</td></tr>
+          <tr data-word="hot" data-stroke="HOT"><td>hot</td><td>HOT</td></tr>
+          <tr data-word="hour" data-stroke="HOUR"><td>hour</td><td>HOUR</td></tr>
+          <tr data-word="house" data-stroke="HOUS"><td>house</td><td>HOUS</td></tr>
+          <tr data-word="how" data-stroke="HOU"><td>how</td><td>HOU</td></tr>
+          <tr data-word="hundred" data-stroke="HURPBD"><td>hundred</td><td>HURPBD</td></tr>
+          <tr data-word="hunt" data-stroke="HUPBT"><td>hunt</td><td>HUPBT</td></tr>
+          <tr data-word="hurt" data-stroke="HURT"><td>hurt</td><td>HURT</td></tr>
+          <tr data-word="I" data-stroke="EU"><td>I</td><td>EU</td></tr>
+          <tr data-word="idea" data-stroke="TKAOE"><td>idea</td><td>TKAOE</td></tr>
+          <tr data-word="if" data-stroke="TP"><td>if</td><td>TP</td></tr>
+          <tr data-word="important" data-stroke="PHORPBT"><td>important</td><td>PHORPBT</td></tr>
+          <tr data-word="in" data-stroke="TPH"><td>in</td><td>TPH</td></tr>
+          <tr data-word="include" data-stroke="TKPHRAOUD"><td>include</td><td>TKPHRAOUD</td></tr>
+          <tr data-word="into" data-stroke="TPHAO"><td>into</td><td>TPHAO</td></tr>
+          <tr data-word="is" data-stroke="EUZ"><td>is</td><td>EUZ</td></tr>
+          <tr data-word="it" data-stroke="T"><td>it</td><td>T</td></tr>
+          <tr data-word="its" data-stroke="EUTS"><td>its</td><td>EUTS</td></tr>
+          <tr data-word="just" data-stroke="SKWRUFT"><td>just</td><td>SKWRUFT</td></tr>
+          <tr data-word="keep" data-stroke="KAOEP"><td>keep</td><td>KAOEP</td></tr>
+          <tr data-word="key" data-stroke="KAOE"><td>key</td><td>KAOE</td></tr>
+          <tr data-word="kid" data-stroke="KEUD"><td>kid</td><td>KEUD</td></tr>
+          <tr data-word="kill" data-stroke="KEUL"><td>kill</td><td>KEUL</td></tr>
+          <tr data-word="kind" data-stroke="KAOEUPBD"><td>kind</td><td>KAOEUPBD</td></tr>
+          <tr data-word="king" data-stroke="KEUPBG"><td>king</td><td>KEUPBG</td></tr>
+          <tr data-word="kitchen" data-stroke="KEUFPB"><td>kitchen</td><td>KEUFPB</td></tr>
+          <tr data-word="know" data-stroke="TPHOE"><td>know</td><td>TPHOE</td></tr>
+          <tr data-word="land" data-stroke="HRAPBD"><td>land</td><td>HRAPBD</td></tr>
+          <tr data-word="last" data-stroke="HRAFT"><td>last</td><td>HRAFT</td></tr>
+          <tr data-word="late" data-stroke="HRAEUT"><td>late</td><td>HRAEUT</td></tr>
+          <tr data-word="laugh" data-stroke="HRAF"><td>laugh</td><td>HRAF</td></tr>
+          <tr data-word="law" data-stroke="HRAU"><td>law</td><td>HRAU</td></tr>
+          <tr data-word="lay" data-stroke="HRAEU"><td>lay</td><td>HRAEU</td></tr>
+          <tr data-word="lead" data-stroke="HRAOED"><td>lead</td><td>HRAOED</td></tr>
+          <tr data-word="learn" data-stroke="HREURPB"><td>learn</td><td>HREURPB</td></tr>
+          <tr data-word="leave" data-stroke="HRAO*EF"><td>leave</td><td>HRAO*EF</td></tr>
+          <tr data-word="left" data-stroke="HREFT"><td>left</td><td>HREFT</td></tr>
+          <tr data-word="leg" data-stroke="HREG"><td>leg</td><td>HREG</td></tr>
+          <tr data-word="less" data-stroke="HRES"><td>less</td><td>HRES</td></tr>
+          <tr data-word="let" data-stroke="HRET"><td>let</td><td>HRET</td></tr>
+          <tr data-word="letter" data-stroke="HRERT"><td>letter</td><td>HRERT</td></tr>
+          <tr data-word="lie" data-stroke="HRAOEU"><td>lie</td><td>HRAOEU</td></tr>
+          <tr data-word="life" data-stroke="HRAOEUF"><td>life</td><td>HRAOEUF</td></tr>
+          <tr data-word="like" data-stroke="HRAOEUBG"><td>like</td><td>HRAOEUBG</td></tr>
+          <tr data-word="list" data-stroke="HREUFT"><td>list</td><td>HREUFT</td></tr>
+          <tr data-word="little" data-stroke="HREUL"><td>little</td><td>HREUL</td></tr>
+          <tr data-word="live" data-stroke="HR*EUF"><td>live</td><td>HR*EUF</td></tr>
+          <tr data-word="local" data-stroke="HROELG"><td>local</td><td>HROELG</td></tr>
+          <tr data-word="long" data-stroke="HROPBG"><td>long</td><td>HROPBG</td></tr>
+          <tr data-word="look" data-stroke="HRAOBG"><td>look</td><td>HRAOBG</td></tr>
+          <tr data-word="lose" data-stroke="HRAOUZ"><td>lose</td><td>HRAOUZ</td></tr>
+          <tr data-word="lot" data-stroke="HROT"><td>lot</td><td>HROT</td></tr>
+          <tr data-word="loud" data-stroke="HROUD"><td>loud</td><td>HROUD</td></tr>
+          <tr data-word="love" data-stroke="HR*UF"><td>love</td><td>HR*UF</td></tr>
+          <tr data-word="low" data-stroke="HROE"><td>low</td><td>HROE</td></tr>
+          <tr data-word="lunch" data-stroke="HRUFRPBLG"><td>lunch</td><td>HRUFRPBLG</td></tr>
+          <tr data-word="machine" data-stroke="SPHAOEPB"><td>machine</td><td>SPHAOEPB</td></tr>
+          <tr data-word="make" data-stroke="PHAEUBG"><td>make</td><td>PHAEUBG</td></tr>
+          <tr data-word="man" data-stroke="PHAPB"><td>man</td><td>PHAPB</td></tr>
+          <tr data-word="many" data-stroke="PHAEPB"><td>many</td><td>PHAEPB</td></tr>
+          <tr data-word="map" data-stroke="PHAP"><td>map</td><td>PHAP</td></tr>
+          <tr data-word="mark" data-stroke="PHARBG"><td>mark</td><td>PHARBG</td></tr>
+          <tr data-word="mat" data-stroke="PHAT"><td>mat</td><td>PHAT</td></tr>
+          <tr data-word="match" data-stroke="PHAFP"><td>match</td><td>PHAFP</td></tr>
+          <tr data-word="may" data-stroke="PHAEU"><td>may</td><td>PHAEU</td></tr>
+          <tr data-word="maybe" data-stroke="PHAEUB"><td>maybe</td><td>PHAEUB</td></tr>
+          <tr data-word="mean" data-stroke="PHAOEPB"><td>mean</td><td>PHAOEPB</td></tr>
+          <tr data-word="meat" data-stroke="PHAO*ET"><td>meat</td><td>PHAO*ET</td></tr>
+          <tr data-word="meet" data-stroke="PHAOET"><td>meet</td><td>PHAOET</td></tr>
+          <tr data-word="member" data-stroke="PHERPBL"><td>member</td><td>PHERPBL</td></tr>
+          <tr data-word="men" data-stroke="PHEPB"><td>men</td><td>PHEPB</td></tr>
+          <tr data-word="milk" data-stroke="PHEULG"><td>milk</td><td>PHEULG</td></tr>
+          <tr data-word="minute" data-stroke="PHEUPBT"><td>minute</td><td>PHEUPBT</td></tr>
+          <tr data-word="miss" data-stroke="PHEUS"><td>miss</td><td>PHEUS</td></tr>
+          <tr data-word="money" data-stroke="PHEUPB"><td>money</td><td>PHEUPB</td></tr>
+          <tr data-word="moon" data-stroke="PHAOPB"><td>moon</td><td>PHAOPB</td></tr>
+          <tr data-word="more" data-stroke="PHOR"><td>more</td><td>PHOR</td></tr>
+          <tr data-word="morning" data-stroke="PHORPBG"><td>morning</td><td>PHORPBG</td></tr>
+          <tr data-word="most" data-stroke="PHOFT"><td>most</td><td>PHOFT</td></tr>
+          <tr data-word="mother" data-stroke="PH*URT"><td>mother</td><td>PH*URT</td></tr>
+          <tr data-word="mountain" data-stroke="PHOUPBT"><td>mountain</td><td>PHOUPBT</td></tr>
+          <tr data-word="mouse" data-stroke="PHOUS"><td>mouse</td><td>PHOUS</td></tr>
+          <tr data-word="mouth" data-stroke="PHO*UT"><td>mouth</td><td>PHO*UT</td></tr>
+          <tr data-word="move" data-stroke="PHAO*UF"><td>move</td><td>PHAO*UF</td></tr>
+          <tr data-word="much" data-stroke="PHUFP"><td>much</td><td>PHUFP</td></tr>
+          <tr data-word="music" data-stroke="PHAOUBGZ"><td>music</td><td>PHAOUBGZ</td></tr>
+          <tr data-word="must" data-stroke="PHUFT"><td>must</td><td>PHUFT</td></tr>
+          <tr data-word="my" data-stroke="PHEU"><td>my</td><td>PHEU</td></tr>
+          <tr data-word="need" data-stroke="TPHAOED"><td>need</td><td>TPHAOED</td></tr>
+          <tr data-word="never" data-stroke="TPH*EFR"><td>never</td><td>TPH*EFR</td></tr>
+          <tr data-word="new" data-stroke="TPHU"><td>new</td><td>TPHU</td></tr>
+          <tr data-word="news" data-stroke="TPHAOUZ"><td>news</td><td>TPHAOUZ</td></tr>
+          <tr data-word="next" data-stroke="TPHEBGTS"><td>next</td><td>TPHEBGTS</td></tr>
+          <tr data-word="night" data-stroke="TPHAOEUT"><td>night</td><td>TPHAOEUT</td></tr>
+          <tr data-word="nine" data-stroke="TPHAOEUPB"><td>nine</td><td>TPHAOEUPB</td></tr>
+          <tr data-word="no" data-stroke="TPHO"><td>no</td><td>TPHO</td></tr>
+          <tr data-word="nor" data-stroke="TPHOR"><td>nor</td><td>TPHOR</td></tr>
+          <tr data-word="not" data-stroke="TPHOT"><td>not</td><td>TPHOT</td></tr>
+          <tr data-word="nothing" data-stroke="TPH*UPBGT"><td>nothing</td><td>TPH*UPBGT</td></tr>
+          <tr data-word="now" data-stroke="TPHOU"><td>now</td><td>TPHOU</td></tr>
+          <tr data-word="ocean" data-stroke="OEGS"><td>ocean</td><td>OEGS</td></tr>
+          <tr data-word="of" data-stroke="-F"><td>of</td><td>-F</td></tr>
+          <tr data-word="off" data-stroke="OF"><td>off</td><td>OF</td></tr>
+          <tr data-word="offer" data-stroke="OFR"><td>offer</td><td>OFR</td></tr>
+          <tr data-word="office" data-stroke="OFS"><td>office</td><td>OFS</td></tr>
+          <tr data-word="oil" data-stroke="OEUL"><td>oil</td><td>OEUL</td></tr>
+          <tr data-word="old" data-stroke="OELD"><td>old</td><td>OELD</td></tr>
+          <tr data-word="on" data-stroke="OPB"><td>on</td><td>OPB</td></tr>
+          <tr data-word="once" data-stroke="WUPBS"><td>once</td><td>WUPBS</td></tr>
+          <tr data-word="one" data-stroke="WUPB"><td>one</td><td>WUPB</td></tr>
+          <tr data-word="only" data-stroke="OEPBL"><td>only</td><td>OEPBL</td></tr>
+          <tr data-word="open" data-stroke="OEP"><td>open</td><td>OEP</td></tr>
+          <tr data-word="or" data-stroke="OR"><td>or</td><td>OR</td></tr>
+          <tr data-word="orange" data-stroke="ORPBG"><td>orange</td><td>ORPBG</td></tr>
+          <tr data-word="order" data-stroke="ORD"><td>order</td><td>ORD</td></tr>
+          <tr data-word="other" data-stroke="OER"><td>other</td><td>OER</td></tr>
+          <tr data-word="our" data-stroke="OUR"><td>our</td><td>OUR</td></tr>
+          <tr data-word="out" data-stroke="OUT"><td>out</td><td>OUT</td></tr>
+          <tr data-word="outside" data-stroke="STAOEUD"><td>outside</td><td>STAOEUD</td></tr>
+          <tr data-word="over" data-stroke="OEFR"><td>over</td><td>OEFR</td></tr>
+          <tr data-word="owl" data-stroke="OUL"><td>owl</td><td>OUL</td></tr>
+          <tr data-word="own" data-stroke="OEPB"><td>own</td><td>OEPB</td></tr>
+          <tr data-word="paper" data-stroke="PAEUP"><td>paper</td><td>PAEUP</td></tr>
+          <tr data-word="parent" data-stroke="PERPBT"><td>parent</td><td>PERPBT</td></tr>
+          <tr data-word="park" data-stroke="PARBG"><td>park</td><td>PARBG</td></tr>
+          <tr data-word="part" data-stroke="PART"><td>part</td><td>PART</td></tr>
+          <tr data-word="party" data-stroke="PAERT"><td>party</td><td>PAERT</td></tr>
+          <tr data-word="pass" data-stroke="PAS"><td>pass</td><td>PAS</td></tr>
+          <tr data-word="past" data-stroke="PAFT"><td>past</td><td>PAFT</td></tr>
+          <tr data-word="pay" data-stroke="PAEU"><td>pay</td><td>PAEU</td></tr>
+          <tr data-word="pen" data-stroke="PEPB"><td>pen</td><td>PEPB</td></tr>
+          <tr data-word="people" data-stroke="PAOEPL"><td>people</td><td>PAOEPL</td></tr>
+          <tr data-word="perhaps" data-stroke="PHRAPS"><td>perhaps</td><td>PHRAPS</td></tr>
+          <tr data-word="person" data-stroke="PERPBS"><td>person</td><td>PERPBS</td></tr>
+          <tr data-word="phone" data-stroke="TPOEPB"><td>phone</td><td>TPOEPB</td></tr>
+          <tr data-word="pick" data-stroke="PEUBG"><td>pick</td><td>PEUBG</td></tr>
+          <tr data-word="picture" data-stroke="P*EUFP"><td>picture</td><td>P*EUFP</td></tr>
+          <tr data-word="piece" data-stroke="PAOES"><td>piece</td><td>PAOES</td></tr>
+          <tr data-word="pig" data-stroke="PEUG"><td>pig</td><td>PEUG</td></tr>
+          <tr data-word="pink" data-stroke="P*EUPBG"><td>pink</td><td>P*EUPBG</td></tr>
+          <tr data-word="plan" data-stroke="PHRAPB"><td>plan</td><td>PHRAPB</td></tr>
+          <tr data-word="plane" data-stroke="PHRAEUPB"><td>plane</td><td>PHRAEUPB</td></tr>
+          <tr data-word="play" data-stroke="PHRAEU"><td>play</td><td>PHRAEU</td></tr>
+          <tr data-word="please" data-stroke="PHRAOEZ"><td>please</td><td>PHRAOEZ</td></tr>
+          <tr data-word="point" data-stroke="POEUPBT"><td>point</td><td>POEUPBT</td></tr>
+          <tr data-word="police" data-stroke="PHRAOES"><td>police</td><td>PHRAOES</td></tr>
+          <tr data-word="poor" data-stroke="PAOR"><td>poor</td><td>PAOR</td></tr>
+          <tr data-word="port" data-stroke="PORT"><td>port</td><td>PORT</td></tr>
+          <tr data-word="possible" data-stroke="POBLS"><td>possible</td><td>POBLS</td></tr>
+          <tr data-word="post" data-stroke="POEFT"><td>post</td><td>POEFT</td></tr>
+          <tr data-word="pot" data-stroke="POT"><td>pot</td><td>POT</td></tr>
+          <tr data-word="pound" data-stroke="POUPBD"><td>pound</td><td>POUPBD</td></tr>
+          <tr data-word="power" data-stroke="POUR"><td>power</td><td>POUR</td></tr>
+          <tr data-word="prepare" data-stroke="PRER"><td>prepare</td><td>PRER</td></tr>
+          <tr data-word="press" data-stroke="PRES"><td>press</td><td>PRES</td></tr>
+          <tr data-word="pretty" data-stroke="PREUT"><td>pretty</td><td>PREUT</td></tr>
+          <tr data-word="probably" data-stroke="PROBL"><td>probably</td><td>PROBL</td></tr>
+          <tr data-word="problem" data-stroke="PROPBL"><td>problem</td><td>PROPBL</td></tr>
+          <tr data-word="produce" data-stroke="TKPRAOUS"><td>produce</td><td>TKPRAOUS</td></tr>
+          <tr data-word="product" data-stroke="PROBGTD"><td>product</td><td>PROBGTD</td></tr>
+          <tr data-word="program" data-stroke="PROERPLG"><td>program</td><td>PROERPLG</td></tr>
+          <tr data-word="proper" data-stroke="PRORP"><td>proper</td><td>PRORP</td></tr>
+          <tr data-word="pull" data-stroke="PUL"><td>pull</td><td>PUL</td></tr>
+          <tr data-word="push" data-stroke="PURB"><td>push</td><td>PURB</td></tr>
+          <tr data-word="put" data-stroke="PUT"><td>put</td><td>PUT</td></tr>
+          <tr data-word="quarter" data-stroke="KWORT"><td>quarter</td><td>KWORT</td></tr>
+          <tr data-word="question" data-stroke="KWEFPBS"><td>question</td><td>KWEFPBS</td></tr>
+          <tr data-word="quick" data-stroke="KWEUBG"><td>quick</td><td>KWEUBG</td></tr>
+          <tr data-word="radio" data-stroke="RAEUD"><td>radio</td><td>RAEUD</td></tr>
+          <tr data-word="raise" data-stroke="RAEUZ"><td>raise</td><td>RAEUZ</td></tr>
+          <tr data-word="ran" data-stroke="RAPB"><td>ran</td><td>RAPB</td></tr>
+          <tr data-word="rat" data-stroke="RAT"><td>rat</td><td>RAT</td></tr>
+          <tr data-word="rather" data-stroke="RA*RT"><td>rather</td><td>RA*RT</td></tr>
+          <tr data-word="read" data-stroke="RAOED"><td>read</td><td>RAOED</td></tr>
+          <tr data-word="ready" data-stroke="RAED"><td>ready</td><td>RAED</td></tr>
+          <tr data-word="real" data-stroke="RAOEL"><td>real</td><td>RAOEL</td></tr>
+          <tr data-word="reason" data-stroke="RAOEPBZ"><td>reason</td><td>RAOEPBZ</td></tr>
+          <tr data-word="red" data-stroke="RED"><td>red</td><td>RED</td></tr>
+          <tr data-word="remember" data-stroke="RER"><td>remember</td><td>RER</td></tr>
+          <tr data-word="rest" data-stroke="REFT"><td>rest</td><td>REFT</td></tr>
+          <tr data-word="rich" data-stroke="REUFP"><td>rich</td><td>REUFP</td></tr>
+          <tr data-word="right" data-stroke="RAOEUT"><td>right</td><td>RAOEUT</td></tr>
+          <tr data-word="road" data-stroke="RAOD"><td>road</td><td>RAOD</td></tr>
+          <tr data-word="room" data-stroke="RAOPL"><td>room</td><td>RAOPL</td></tr>
+          <tr data-word="run" data-stroke="RUPB"><td>run</td><td>RUPB</td></tr>
+          <tr data-word="sad" data-stroke="SAD"><td>sad</td><td>SAD</td></tr>
+          <tr data-word="said" data-stroke="SED"><td>said</td><td>SED</td></tr>
+          <tr data-word="same" data-stroke="SAEUPL"><td>same</td><td>SAEUPL</td></tr>
+          <tr data-word="sat" data-stroke="SAT"><td>sat</td><td>SAT</td></tr>
+          <tr data-word="saw" data-stroke="SAU"><td>saw</td><td>SAU</td></tr>
+          <tr data-word="say" data-stroke="SAEU"><td>say</td><td>SAEU</td></tr>
+          <tr data-word="school" data-stroke="SKAOL"><td>school</td><td>SKAOL</td></tr>
+          <tr data-word="see" data-stroke="SAOE"><td>see</td><td>SAOE</td></tr>
+          <tr data-word="sell" data-stroke="SEL"><td>sell</td><td>SEL</td></tr>
+          <tr data-word="seven" data-stroke="S*EFPB"><td>seven</td><td>S*EFPB</td></tr>
+          <tr data-word="she" data-stroke="SHE"><td>she</td><td>SHE</td></tr>
+          <tr data-word="sheep" data-stroke="SHAOEP"><td>sheep</td><td>SHAOEP</td></tr>
+          <tr data-word="short" data-stroke="SHORT"><td>short</td><td>SHORT</td></tr>
+          <tr data-word="sing" data-stroke="SEUPBG"><td>sing</td><td>SEUPBG</td></tr>
+          <tr data-word="sit" data-stroke="SEUT"><td>sit</td><td>SEUT</td></tr>
+          <tr data-word="six" data-stroke="SEUBGS"><td>six</td><td>SEUBGS</td></tr>
+          <tr data-word="sky" data-stroke="SKAOEU"><td>sky</td><td>SKAOEU</td></tr>
+          <tr data-word="sleep" data-stroke="SHRAOEP"><td>sleep</td><td>SHRAOEP</td></tr>
+          <tr data-word="slow" data-stroke="SHROE"><td>slow</td><td>SHROE</td></tr>
+          <tr data-word="small" data-stroke="SPHAUL"><td>small</td><td>SPHAUL</td></tr>
+          <tr data-word="so" data-stroke="SO"><td>so</td><td>SO</td></tr>
+          <tr data-word="some" data-stroke="SOPL"><td>some</td><td>SOPL</td></tr>
+          <tr data-word="stand" data-stroke="STAPBD"><td>stand</td><td>STAPBD</td></tr>
+          <tr data-word="star" data-stroke="STAR"><td>star</td><td>STAR</td></tr>
+          <tr data-word="start" data-stroke="START"><td>start</td><td>START</td></tr>
+          <tr data-word="stay" data-stroke="STAEU"><td>stay</td><td>STAEU</td></tr>
+          <tr data-word="still" data-stroke="STEUL"><td>still</td><td>STEUL</td></tr>
+          <tr data-word="stop" data-stroke="STOP"><td>stop</td><td>STOP</td></tr>
+          <tr data-word="strong" data-stroke="STROPBG"><td>strong</td><td>STROPBG</td></tr>
+          <tr data-word="sun" data-stroke="SUPB"><td>sun</td><td>SUPB</td></tr>
+          <tr data-word="swim" data-stroke="SWEUPL"><td>swim</td><td>SWEUPL</td></tr>
+          <tr data-word="table" data-stroke="TAEUBL"><td>table</td><td>TAEUBL</td></tr>
+          <tr data-word="take" data-stroke="TAEUBG"><td>take</td><td>TAEUBG</td></tr>
+          <tr data-word="talk" data-stroke="TAUBG"><td>talk</td><td>TAUBG</td></tr>
+          <tr data-word="tea" data-stroke="TAOE"><td>tea</td><td>TAOE</td></tr>
+          <tr data-word="teach" data-stroke="TAOEFP"><td>teach</td><td>TAOEFP</td></tr>
+          <tr data-word="tell" data-stroke="TEL"><td>tell</td><td>TEL</td></tr>
+          <tr data-word="ten" data-stroke="TEPB"><td>ten</td><td>TEPB</td></tr>
+          <tr data-word="that" data-stroke="THA"><td>that</td><td>THA</td></tr>
+          <tr data-word="the" data-stroke="-T"><td>the</td><td>-T</td></tr>
+          <tr data-word="their" data-stroke="THAEUR"><td>their</td><td>THAEUR</td></tr>
+          <tr data-word="then" data-stroke="THEPB"><td>then</td><td>THEPB</td></tr>
+          <tr data-word="there" data-stroke="THR"><td>there</td><td>THR</td></tr>
+          <tr data-word="these" data-stroke="THEZ"><td>these</td><td>THEZ</td></tr>
+          <tr data-word="they" data-stroke="THE"><td>they</td><td>THE</td></tr>
+          <tr data-word="think" data-stroke="THEU"><td>think</td><td>THEU</td></tr>
+          <tr data-word="this" data-stroke="TH"><td>this</td><td>TH</td></tr>
+          <tr data-word="those" data-stroke="THOEZ"><td>those</td><td>THOEZ</td></tr>
+          <tr data-word="three" data-stroke="THRAOE"><td>three</td><td>THRAOE</td></tr>
+          <tr data-word="time" data-stroke="TAOEUPL"><td>time</td><td>TAOEUPL</td></tr>
+          <tr data-word="to" data-stroke="TO"><td>to</td><td>TO</td></tr>
+          <tr data-word="today" data-stroke="TOED"><td>today</td><td>TOED</td></tr>
+          <tr data-word="too" data-stroke="TAO"><td>too</td><td>TAO</td></tr>
+          <tr data-word="train" data-stroke="TRAEUPB"><td>train</td><td>TRAEUPB</td></tr>
+          <tr data-word="tree" data-stroke="TRAOE"><td>tree</td><td>TRAOE</td></tr>
+          <tr data-word="try" data-stroke="TRAOEU"><td>try</td><td>TRAOEU</td></tr>
+          <tr data-word="two" data-stroke="TWO"><td>two</td><td>TWO</td></tr>
+          <tr data-word="up" data-stroke="UP"><td>up</td><td>UP</td></tr>
+          <tr data-word="use" data-stroke="AOUZ"><td>use</td><td>AOUZ</td></tr>
+          <tr data-word="very" data-stroke="SRER"><td>very</td><td>SRER</td></tr>
+          <tr data-word="wait" data-stroke="WAEUT"><td>wait</td><td>WAEUT</td></tr>
+          <tr data-word="walk" data-stroke="WAUBG"><td>walk</td><td>WAUBG</td></tr>
+          <tr data-word="want" data-stroke="WAPBT"><td>want</td><td>WAPBT</td></tr>
+          <tr data-word="was" data-stroke="WAZ"><td>was</td><td>WAZ</td></tr>
+          <tr data-word="wash" data-stroke="WARB"><td>wash</td><td>WARB</td></tr>
+          <tr data-word="water" data-stroke="WAURT"><td>water</td><td>WAURT</td></tr>
+          <tr data-word="we" data-stroke="WE"><td>we</td><td>WE</td></tr>
+          <tr data-word="weak" data-stroke="WAOEBG"><td>weak</td><td>WAOEBG</td></tr>
+          <tr data-word="went" data-stroke="WEPBT"><td>went</td><td>WEPBT</td></tr>
+          <tr data-word="white" data-stroke="WHAOEUT"><td>white</td><td>WHAOEUT</td></tr>
+          <tr data-word="will" data-stroke="HR"><td>will</td><td>HR</td></tr>
+          <tr data-word="win" data-stroke="WEUPB"><td>win</td><td>WEUPB</td></tr>
+          <tr data-word="with" data-stroke="W"><td>with</td><td>W</td></tr>
+          <tr data-word="woman" data-stroke="WAOPBL"><td>woman</td><td>WAOPBL</td></tr>
+          <tr data-word="work" data-stroke="WORBG"><td>work</td><td>WORBG</td></tr>
+          <tr data-word="write" data-stroke="WRAOEUT"><td>write</td><td>WRAOEUT</td></tr>
+          <tr data-word="yellow" data-stroke="KWREL"><td>yellow</td><td>KWREL</td></tr>
+          <tr data-word="yes" data-stroke="KWRES"><td>yes</td><td>KWRES</td></tr>
+          <tr data-word="you" data-stroke="U"><td>you</td><td>U</td></tr>
+          <tr data-word="your" data-stroke="KWROUR"><td>your</td><td>KWROUR</td></tr>
+        </tbody>
+      </table>
+      <p class="no-results" id="no-results" hidden>No words match that search.</p>
+    </div>
+    <details class="multistroke">
+      <summary>Eight optional two-stroke forms</summary>
+      <div class="table-wrap">
+        <table class="dictionary-table">
+          <caption class="visually-hidden">Optional two-stroke expansions</caption>
+          <thead><tr><th scope="col">Word</th><th scope="col">Two-stroke form</th></tr></thead>
+          <tbody>
+            <tr><td>almost</td><td>AUL/PHOEFT</td></tr>
+            <tr><td>company</td><td>KUFRP/TPHAOE</td></tr>
+            <tr><td>important</td><td>EUPL/PORPBT</td></tr>
+            <tr><td>include</td><td>EUPB/KHRAOUD</td></tr>
+            <tr><td>outside</td><td>OUT/SEUD</td></tr>
+            <tr><td>probably</td><td>PROB/HRAOE</td></tr>
+            <tr><td>program</td><td>PROEG/RAPL</td></tr>
+            <tr><td>radio</td><td>RAEUD/OE</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+    <noscript><p class="noscript-note">Search needs JavaScript. The full table is still below and can be read or copied.</p></noscript>
+  </div>
+</section>
+
+<section class="section licence" id="licence">
+  <div class="shell licence-inner">
+    <div class="licence-badge" aria-hidden="true">
+      <span>CC</span><span>BY</span><span>SA</span>
+    </div>
+    <div class="licence-copy">
+      <p class="eyebrow dark">Licence and credit</p>
+      <h2>CC BY-SA 4.0</h2>
+      <p>The dictionary data and its derived provenance records are licensed under Creative Commons Attribution-ShareAlike 4.0 International. The generator and clean engine code are MIT. CMUdict remains BSD-2-Clause, and the extracted reference pages remain under their original CC licences. Full licence texts and notices are in the repository.</p>
+      <p class="attribution">Steno Start Open Dictionary by Billy Rebecchi, derived from CMUdict, Wikipedia: Stenotype, the Plover Wiki and the archived Art of Chording. Adaptations must be shared under CC BY-SA 4.0. Steno Start is independent and is not affiliated with Plover or Open Steno.</p>
+      <div class="licence-links">
+        <a class="button ghost" href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">Read the licence</a>
+        <a class="text-link" href="https://github.com/thebillington/steno-start-open-dict/blob/master/NOTICE" rel="noopener">NOTICE <span aria-hidden="true">→</span></a>
+        <a class="text-link" href="https://github.com/thebillington/steno-start-open-dict/tree/master/LICENSES" rel="noopener">Licence texts <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section sources">
+  <div class="shell">
+    <div class="section-head">
+      <p class="eyebrow dark">Provenance</p>
+      <h2>Every source, named.</h2>
+      <p class="section-intro">The dictionary is only as trustworthy as its paper trail. These are the inputs, what each was used for and the licence it came under.</p>
+    </div>
+    <ul class="source-grid">
+      <li>
+        <h3>CMU Pronouncing Dictionary</h3>
+        <p>Pronunciation</p>
+        <span class="source-license">BSD-2-Clause</span>
+        <a href="https://github.com/cmusphinx/cmudict" rel="noopener">Source <span aria-hidden="true">→</span></a>
+      </li>
+      <li>
+        <h3>Art of Chording</h3>
+        <p>Theory and brief examples (Wayback archive)</p>
+        <span class="source-license">CC BY-SA 4.0</span>
+        <a href="https://www.artofchording.com/" rel="noopener">Source <span aria-hidden="true">→</span></a>
+      </li>
+      <li>
+        <h3>Wikipedia: Stenotype</h3>
+        <p>Layout, chart and examples</p>
+        <span class="source-license">CC BY-SA 4.0</span>
+        <a href="https://en.wikipedia.org/wiki/Stenotype" rel="noopener">Source <span aria-hidden="true">→</span></a>
+      </li>
+      <li>
+        <h3>Plover Wiki</h3>
+        <p>Top 100 words, brief ideas, cheat sheets and theory</p>
+        <span class="source-license">CC BY as stated in the wiki footer</span>
+        <a href="https://plover.wiki/" rel="noopener">Source <span aria-hidden="true">→</span></a>
+      </li>
+      <li>
+        <h3>Steno Start word list and rules</h3>
+        <p>Word selection and outline rules</p>
+        <span class="source-license">CC BY-SA 4.0</span>
+        <a href="https://github.com/thebillington/steno-start-open-dict/blob/master/generator/RULES.md" rel="noopener">Source <span aria-hidden="true">→</span></a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section faq">
+  <div class="shell faq-inner">
+    <div class="section-head faq-head">
+      <p class="eyebrow dark">Questions</p>
+      <h2>Using the data.</h2>
+      <p class="section-intro">For anything not covered here, <a href="/support/">get in touch</a>.</p>
+    </div>
+    <div class="faq-list">
+      <details>
+        <summary>Can I use this in my own app or project?</summary>
+        <p>Yes, under CC BY-SA 4.0. Credit the Steno Start Open Dictionary and its sources, link to the licence, indicate any changes and share your adaptation under the same licence. The app&#x27;s code and branding are not part of the data licence.</p>
+      </details>
+      <details>
+        <summary>Is this the same dictionary that ships in Steno Start?</summary>
+        <p>Yes. The 500-word set is the Steno Start Pro teaching dictionary. Steno Start Lite is a 135-word subset of it, and the 100 free sentences use only those Lite words.</p>
+      </details>
+      <details>
+        <summary>Is it compatible with Plover?</summary>
+        <p>It is a JSON word-to-outline map in the usual shape, so many Plover-style tools can read it. But it is a 500-word teaching set, not a full Plover dictionary, and agreement with Plover&#x27;s outlines is 78.8% on this set. Check any outline before relying on it.</p>
+      </details>
+      <details>
+        <summary>Why is there no full 6,000 or 100,000-word set?</summary>
+        <p>A comprehensive English steno dictionary is not available under a permissive or share-alike licence that we can verify. The realistic large option is GPL data, and we do not want to mix that into a CC BY-SA set. Five hundred words is the honest, openly licensed beginner set we can publish and support.</p>
+      </details>
+      <details>
+        <summary>How do I import it into Steno Start?</summary>
+        <p>Unlock Pro, open the dictionaries screen and choose import. Paste the raw dictionary.json link from this page, or download the file and choose it from your device. The import stays local to your device.</p>
+      </details>
+      <details>
+        <summary>Are the practice sentences included?</summary>
+        <p>No. The dictionary download is the word set. The app also ships a separate pack of 3,000 Tatoeba sentences under CC BY 2.0 FR for use with imported dictionaries, with contributor attribution stored in the app&#x27;s asset file.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="share-band">
+  <div class="shell share-inner">
+    <div>
+      <h2>Know someone learning steno?</h2>
+      <p>Send them the dictionary page. It is free, openly licensed and does not need an account.</p>
+    </div>
+    <div class="share-actions">
+      <button class="button light copy-button" type="button" data-copy="https://stenostart.uk/dictionary/">Copy page link</button>
+      <a class="text-link light-link" href="https://github.com/thebillington/steno-start-open-dict" rel="noopener">GitHub <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+<script src="/assets/dictionary.js?v=baf425a3" defer></script>
+
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <div class="footer-brand">
+        <a class="wordmark" href="/">
+          <img class="wordmark-icon" src="/assets/app-icon.png?v=baf425a3" alt="" width="32" height="32">
+          <span><strong>steno</strong> start</span>
+        </a>
+        <p class="footer-tag">A calm, offline introduction to stenography.</p>
+        <p class="footer-independent">Independent. Not affiliated with Plover or Open Steno.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <div>
+          <h2>The app</h2>
+          <a href="/#learn">How it works</a>
+          <a href="/#pro">Free and Pro</a>
+          <a href="/#get">Get Steno Start</a>
+          <a href="/support/">Support</a>
+        </div>
+        <div>
+          <h2>Open dictionary</h2>
+          <a href="/dictionary/">About the data</a>
+          <a href="/dictionary/#download">Download</a>
+          <a href="/dictionary/#licence">Licence and credit</a>
+          <a href="https://github.com/thebillington/steno-start-open-dict" rel="noopener">Source repository</a>
+        </div>
+        <div>
+          <h2>Small print</h2>
+          <a href="/privacy/">Privacy policy</a>
+          <a href="/terms/">Terms and conditions</a>
+          <a href="mailto:billy.rebecchi@googlemail.com">Email us</a>
+        </div>
+      </nav>
+    </div>
+    <div class="shell footer-legal">
+      <p>&copy; 2026 Billy Rebecchi.</p>
+      <p>Steno Start is a learning aid, not a system keyboard.</p>
+    </div>
+  </footer>
+</body>
+</html>
