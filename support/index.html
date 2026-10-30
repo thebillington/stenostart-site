@@ -30,7 +30,7 @@
 
   <link rel="preload" href="/assets/fonts/Inter.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/Nunito.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/style.css?v=0f71ae56">
+  <link rel="stylesheet" href="/assets/style.css?v=8448f170">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" href="/assets/favicon-32.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -42,7 +42,7 @@
   <header class="masthead">
     <div class="shell masthead-inner">
       <a class="wordmark" href="/">
-        <img class="wordmark-icon" src="/assets/app-icon.png?v=0f71ae56" alt="" width="36" height="36">
+        <img class="wordmark-icon" src="/assets/app-icon.png?v=8448f170" alt="" width="36" height="36">
         <span><strong>steno</strong> start</span>
       </a>
       <nav class="masthead-nav" aria-label="Primary">
@@ -71,21 +71,136 @@
     <div>
       <p class="eyebrow dark">Support</p>
       <h1>Stuck? <span class="accent">Ask us.</span></h1>
-      <p class="page-intro">Something not working, or not sure whether Steno Start is for you? Email us. A real person reads every message, usually within two working days.</p>
+      <p class="page-intro">Something not working, or not sure whether Steno Start is for you? Send us a message. It becomes a ticket in our private tracker, and a real person replies, usually within two working days.</p>
       <div class="hero-actions">
-        <a class="button primary" href="mailto:billy.rebecchi@googlemail.com?subject=Steno%20Start%20support">Email billy.rebecchi@googlemail.com</a>
+        <a class="button primary" href="#contact">Send a message</a>
+        <a class="button ghost" href="mailto:billy.rebecchi@googlemail.com">Email instead</a>
       </div>
     </div>
     <div class="support-card">
       <svg class="icon support-icon" aria-hidden="true"><use href="/assets/icons.svg#mail"></use></svg>
       <p class="support-card-title">A real reply, from a real person</p>
-      <p>Usually within two working days. Include your device, app version and what you expected to happen.</p>
-      <p class="support-card-note">Never send an Apple ID password, Google password or payment details.</p>
+      <p>Usually within two working days. Include your device, app version and
+        what you expected to happen.</p>
+      <p class="support-card-note">Never send an Apple ID password, Google
+        password or payment details.</p>
     </div>
   </div>
 </section>
 
-<section class="section">
+<section class="section support-contact" id="contact">
+  <div class="shell support-contact-grid">
+    <div class="support-form-panel">
+<section class="support-form-section" aria-labelledby="support-form-heading">
+  <p class="eyebrow dark">Send a message</p>
+  <h2 id="support-form-heading">Tell us what happened.</h2>
+  <p class="support-form-intro">Every message becomes a ticket in our private
+    tracker, so it cannot get lost. We usually reply within two working days.</p>
+  <form id="support-form" class="support-form" action="https://thebillington.co.uk/api/steno-support" method="post"
+        enctype="multipart/form-data" hidden>
+    <div class="field-grid">
+      <div class="field">
+        <label for="support-email">Email</label>
+        <input id="support-email" name="email" type="email" autocomplete="email"
+               maxlength="254" required>
+        <p class="field-hint">Only used to reply to you.</p>
+      </div>
+      <div class="field">
+        <label for="support-name">Name <span class="optional">optional</span></label>
+        <input id="support-name" name="name" type="text" autocomplete="name" maxlength="100">
+      </div>
+    </div>
+
+    <div class="field-grid">
+      <div class="field" id="support-app-field">
+        <label for="support-app">App</label>
+        <select id="support-app" name="app">
+          <option value="steno">Steno Start</option>
+          <option value="website">The website</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="support-category">What is it about?</label>
+        <select id="support-category" name="category">
+          <option value="bug">Something is broken</option>
+          <option value="purchase">A purchase or unlock</option>
+          <option value="content">The content or a word</option>
+          <option value="data">My progress or data</option>
+          <option value="other">Something else</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="support-message">What happened?</label>
+      <textarea id="support-message" name="message" rows="7" minlength="20"
+                maxlength="5000" required></textarea>
+      <p class="field-hint">What you expected, and what happened instead.</p>
+    </div>
+
+    <div class="field">
+      <label for="support-screenshot">Screenshot <span class="optional">optional</span></label>
+      <input id="support-screenshot" name="screenshot" type="file"
+             accept="image/png,image/jpeg,image/webp,image/gif">
+      <p class="field-hint">PNG, JPEG, WebP or GIF, up to 5 MB.</p>
+    </div>
+
+    <details class="support-extra">
+      <summary>Add device details <span class="optional">optional</span></summary>
+      <div class="field-grid">
+        <div class="field">
+          <label for="support-version">App version</label>
+          <input id="support-version" name="appVersion" type="text" maxlength="40">
+        </div>
+        <div class="field">
+          <label for="support-device">Device</label>
+          <input id="support-device" name="device" type="text" maxlength="100"
+                 placeholder="iPhone 17, iOS 18.2">
+        </div>
+      </div>
+    </details>
+
+    <div class="support-honeypot" aria-hidden="true">
+      <label for="support-nickname">Leave this empty</label>
+      <input id="support-nickname" name="nickname_confirm" type="text"
+             tabindex="-1" autocomplete="off">
+    </div>
+
+    <label class="support-consent">
+      <input type="checkbox" name="consent" required>
+      <span>I agree that my message, email address and any screenshot will be
+        stored in our private GitHub tracker so we can reply.</span>
+    </label>
+
+
+    <button type="submit" class="support-submit">Send support request</button>
+  </form>
+  <p class="support-form-status" id="support-form-status" role="status"
+     aria-live="polite" tabindex="-1"></p>
+  <noscript>
+    <p class="support-form-noscript">This form needs JavaScript. Enable it and
+      reload the page, or email <a href="mailto:billy.rebecchi@googlemail.com">billy.rebecchi@googlemail.com</a>.</p>
+  </noscript>
+</section>
+
+    </div>
+    <aside class="support-aside support-form-aside">
+      <h2>What happens next</h2>
+      <ol class="support-steps">
+        <li><strong>We open a ticket.</strong> Your message becomes an issue in
+          our private GitHub tracker, so it cannot be lost.</li>
+        <li><strong>We reply by email.</strong> Usually within two working days.
+          The issue is private; you will not need an account.</li>
+        <li><strong>We clean up.</strong> Contact details are removed when the
+          request is resolved, and the issue is deleted twelve months later.</li>
+      </ol>
+      <p class="aside-note">Prefer email? Write to
+        <a href="mailto:billy.rebecchi@googlemail.com">billy.rebecchi@googlemail.com</a>.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="section support-details">
   <div class="shell support-layout">
     <div class="support-body">
       <section>
@@ -125,7 +240,9 @@
         <li><strong>Refund?</strong> Request it from the store you bought from.</li>
         <li><strong>Import a dictionary?</strong> Pro → Dictionaries → Import.</li>
       </ul>
-      <p class="aside-note">Steno Start is independent. We cannot reset your store account or issue refunds ourselves, but we can help you find the right place.</p>
+      <p class="aside-note">Steno Start is independent. We cannot reset your
+        store account or issue refunds ourselves, but we can help you find the
+        right place.</p>
     </aside>
   </div>
 </section>
@@ -141,6 +258,7 @@
     </div>
   </div>
 </section>
+<script src="/assets/support.js?v=8448f170" defer></script>
 
   </main>
 
@@ -148,7 +266,7 @@
     <div class="shell footer-inner">
       <div class="footer-brand">
         <a class="wordmark" href="/">
-          <img class="wordmark-icon" src="/assets/app-icon.png?v=0f71ae56" alt="" width="32" height="32">
+          <img class="wordmark-icon" src="/assets/app-icon.png?v=8448f170" alt="" width="32" height="32">
           <span><strong>steno</strong> start</span>
         </a>
         <p class="footer-tag">A calm, offline introduction to stenography.</p>
