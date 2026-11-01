@@ -1,0 +1,32 @@
+# Steno Start
+
+> Learn steno basics on your phone. A guided, offline introduction to stenography. Learn the 22-key steno keyboard one chord at a time, then practise real sentences. Free to try, one payment for Pro.
+
+## Canonical facts
+
+- App: Steno Start
+- URL: https://stenostart.uk/
+- Platforms: Android, iOS (store listings being prepared)
+- Price: free to try; one-off in-app purchase for Pro; no subscription
+- Account required: no
+- Advertising and analytics: none
+- Works offline: yes; lessons, sentences and progress stay on the device
+- Independent: not affiliated with Plover or Open Steno
+- Open dictionary: Steno Start Open Dictionary, 500 words, CC BY-SA 4.0
+- Dictionary source: https://github.com/thebillington/steno-start-open-dict
+- Support: https://github.com/sponsors/thebillington
+
+## Pages
+
+- [Steno Start](https://stenostart.uk/): what the app teaches, how it works and pricing.
+- [Open dictionary](https://stenostart.uk/dictionary/): the 500-word CC BY-SA 4.0 teaching dictionary, its provenance and download links.
+- [Support](https://stenostart.uk/support/): contact and troubleshooting.
+- [Privacy](https://stenostart.uk/privacy/) and [terms](https://stenostart.uk/terms/): data handling and licence terms.
+
+## Positioning
+
+Steno Start is a guided introduction to the 22-key steno keyboard on a phone or tablet. It is a learning aid, not a system keyboard and not a full professional steno course. It teaches a 500-word beginner dictionary and can import a Plover-style JSON dictionary in Pro.
+
+## Attribution
+
+Cite the app as "Steno Start, a guided introduction to stenography for phones and tablets by Billy Rebecchi, https://stenostart.uk/".
