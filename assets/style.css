@@ -1061,6 +1061,15 @@ p { text-wrap: pretty; }
 
 .store-badge.is-soon span { opacity: .7; }
 
+.store-badge-play {
+  padding: 0;
+  min-height: 0;
+  background: none;
+  border-radius: 0;
+}
+
+.store-badge-play img { display: block; width: auto; height: 48px; }
+
 .get-note { margin-top: 14px !important; font-size: .82rem; color: var(--warm-muted) !important; }
 
 /* ---------- footer ---------- */
