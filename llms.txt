@@ -6,7 +6,7 @@
 
 - App: Steno Start
 - URL: https://stenostart.uk/
-- Platforms: Android, iOS (store listings being prepared)
+- Platforms: Android, iOS (App Store and Google Play)
 - Price: free to try; one-off in-app purchase for Pro; no subscription
 - Account required: no
 - Advertising and analytics: none
